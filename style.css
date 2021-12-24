@@ -90,10 +90,30 @@ body {
 
 @media (min-width: 768px) {
 
+  .explore__menu__container {
+    position: relative;
+  }
+
+  .explore__menu__bg {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,
+        #FF512F 0%,
+        #DD2476 51%,
+        #FF512F 100%);
+    z-index: -3;
+    transform: skewY(-5deg);
+    margin-top: 60px;
+  }
+
   .explore__menu__lists {
     display: flex;
-    gap: 15px;
     margin-top: 45px;
+    gap: 15px;
+    padding: 0 30px;
   }
 
 #pizza__card {
@@ -120,6 +140,14 @@ body {
   .navbar__brand {
     width: 150px;
   }
+
+  .explore__menu__lists {
+    gap: 30px;
+  }
+
+.explore__menu__text {
+  font-size: 50px;
+}
 
   .button__primary {
     padding: 20px;

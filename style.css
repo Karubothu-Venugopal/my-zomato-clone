@@ -88,7 +88,63 @@ body {
   color: #1d3557;
 }
 
+.restaurants__image__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  width: 40%;
+  height: 100px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.img2 {
+  width: 40%;
+  height: 120px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.img3 {
+  width: 40%;
+  height: 120px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.img4 {
+  width: 40%;
+  height: 100px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.restaurants__text{
+  font-weight: 800;
+  font-size: 28px;
+  margin: 20px 0px;
+  color: #1d3557;
+}
+
 @media (min-width: 768px) {
+
+  .restaurants__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+
 
   .explore__menu__container {
     position: relative;
@@ -137,6 +193,19 @@ body {
 }
 
 @media (min-width: 1024px) {
+
+  .restaurants__description {
+    width: 100%;
+  }
+
+  .restaurants__text {
+    font-size: 50px;
+  }
+
+  .restaurants__container {
+    justify-content: space-between;
+  }
+
   .navbar__brand {
     width: 150px;
   }
